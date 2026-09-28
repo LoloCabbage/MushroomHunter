@@ -235,9 +235,9 @@ Wildplukwiki、社交媒体、照片识别工具提供的“像某种”可以�
 **不要采用下列食用判据：** “牛肝菌大多能吃，所以这个也能吃”“不变蓝就是美味牛肝菌”“有虫吃所以无毒”“排除鹅膏属就没有严重风险”。本攻略只提供资料和观察方法，不凭这类简化经验给野生样本作可食结论。[食用风险：Voedingscentrum][food-safety]
 
 <a id="safety"></a>
-## 七、野外记录、食用风险与就医
+## 七、就医
 
-### 8.1 尽量拍到什么？
+### 7.1 尽量拍到什么？
 
 下面是根据鉴定所需信息整理的**记录模板**，不是要求为了照片破坏样本或离道采集：
 
@@ -265,44 +265,6 @@ Wildplukwiki、社交媒体、照片识别工具提供的“像某种”可以�
 荷兰 NVIC 的中毒咨询主要面向医疗专业人员，公众应先联系医生，由医生按需要咨询 NVIC，而不是把它当成普通游客直接求鉴定的热线。[NVIC 官网][nvic]
 
 <a id="checklist"></a>
-## 九、出行检查表与可复制模板
-
-### 9.1 出发前
-
-- [ ] 查到**具体林地**的官方页面，确认实际管理者，不只看 Google Maps 标签。
-- [ ] 查过管理者的 `wildplukken`／`paddenstoelen plukken` 规则，以及该地点的 `toegangsregels`。
-- [ ] 必要时核对市政条例；不确定采集许可时，把本次活动设为只观察、拍照。
-- [ ] 确认是否必须留在步道上，是否有临时封闭、季节性限制或入场要求。
-- [ ] 把历史天气和预报分开，注明日期、站名、缺测或不完整时段。
-- [ ] 收藏目标物种页和检索工具，不仅收藏“可食”图片。
-- [ ] 准备原位照片和观察笔记；不以必须采到蘑菇作为行程成功标准。
-
-### 9.2 到现场后
-
-拍下入口告示，确认管理者标志和开放路线。跨入另一个自然区时重新查规则。发现蘑菇先观察记录，不因别人正在采、别人留下足迹或地图上有人打点，就视为许可。
-
-### 9.3 给管理者的询问模板
-
-下面是可自行修改并发送的荷兰语模板；**未发送给任何机构**。
-
-```text
-Onderwerp: Regels voor het verzamelen van paddenstoelen in [gebied]
-
-Beste beheerder,
-
-Ik wil op [datum] wandelen in [gebied / route / ingang].
-Mag ik daar een kleine hoeveelheid paddenstoelen verzamelen voor eigen gebruik?
-
-Kunt u aangeven welke hoeveelheid eventueel is toegestaan, of ik uitsluitend
-op de officiële paden moet blijven, en of er plaatselijke verboden of
-tijdelijke beperkingen gelden?
-
-Als verzamelen niet is toegestaan, wil ik alleen kijken en fotograferen.
-
-Alvast bedankt voor uw toelichting.
-```
-
-中文意思：说明具体区域、路线／入口和日期，询问是否允许少量自用采集、数量尺度、步道限制和临时禁令，并表示不允许时只观察拍照。
 
 ### 9.4 每次出行的 Markdown 记录模板
 
