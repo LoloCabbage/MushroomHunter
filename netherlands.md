@@ -77,76 +77,23 @@ Google Maps 上的 **National forest** 是地点类别标签，不能替代管�
 同样，不能用“可以采黑莓”推导“可以采蘑菇”。例如 PWN 的 Noordhollands Duinreservaat 规则对八月黑莓有特定例外，但蘑菇禁采规则并未因此取消。[来源：PWN][pwn-rules]
 
 <a id="maps"></a>
-## 三、全国地图：怎样查管理者、不误读颜色
 
-### 3.1 先撤回此前生成地图的错误标注
+## 三、一些目前可采摘的森林与自然区
 
-> **此前对话生成的《最新版荷兰采菌管理者地图》不能用于判断管理者或采摘许可。**  
-> 那张图没有使用真实 GIS 地块数据进行三类管理者分类；绿、蓝、紫色地块分配未经核实。图中“依据 CLO 2023 管理数据”的标注不实，在本攻略中明确撤回。问题不只是“边界不够精细”，而是颜色对应的管理者信息本身不可靠。
+以下是**截止本攻略更新日期查询到的可以采摘的地区**，政策随时可能变化，具体请点进官网查找是否可以采摘。
 
-本次也没有取得三家机构最新、完整的全国地块 GIS 原始数据，因此不再附上一张看似精确、实际无法核验的三色图。即使有真实管理者边界，地图仍应称为“管理者参考图”，而不是“可采许可图”。
-
-### 3.2 真正可用的地图入口
-
-| 网站／地图 | 能解决什么 | 不能解决什么 |
+| 地点 | 管理者／官方入口 | 备注 |
 |---|---|---|
-| [SBB 自然区目录][sbb-areas]／[全国地图入口][sbb-map] | 先找到 SBB 自然区，再进入各区域的访问规则、路线及联系页面。 | 不能把景区点位或概括范围当成所有相邻地块的当前管理边界。 |
-| [Natuurmonumenten 全国地图][nm-map]／[自然区目录][nm-areas] | 查 NM 的自然区、路线、游客信息。 | 动态游客地图不等于完整地籍图，更不等于许可图。 |
-| [LandschappenNL 机构目录][landschappen-directory] | 进入对应省级机构，再找它自己的区域地图和规则。 | 联合组织目录不代表一套全国统一规则。 |
-| [CLO：管理机构土地分布，2023][clo-2023] | 看三大类自然管理组织土地的全国总体分布。 | 最终图没有把 SBB、NM、各省 Landschap 分成三种管理者颜色。 |
-| [CLO：管理机构土地分布，2009旧版][clo-2009] | 看历史上不同管理组织的全国分布格局。 | 数据过旧，不能据此确认现在某块地是谁管理、是否可采。 |
-| [PBL Atlas van de Regio：土地所有权互动图][pbl-atlas] | 辅助查看土地所有权类别；该入口由 CLO 页面推荐。 | 所有权不一定等于日常管理权；仍须查看图层定义、数据年份。 |
-
-SBB、NM 和 PBL 的互动地图需要浏览器加载脚本。这次能核对其官方入口／说明，但没有逐个验证全国地块。地图深链接无法显示时，从同一机构的自然区目录或 [CLO 说明页][clo-2023]重新进入，不把空白页面理解为“没有该管理者土地”。
-
-### 3.3 你之前那张 CLO 图：红色不是 NM，也不是禁采
-
-根据 [CLO 2023 说明][clo-2023]，这张图把 SBB、Natuurmonumenten、Provinciale Landschappen **合并为一个管理／所有权集合**，然后与 Natuurnetwerk Nederland（NNN，自然网络）范围比较：
-
-| 图例颜色 | 正确含义 |
-|---|---|
-| 深橄榄绿色 | 三大类机构管理和／或拥有，且在 NNN 内的土地。 |
-| 紫红色 | 三大类机构管理和／或拥有，但在 NNN 外的土地。 |
-| 浅绿色 | 其余陆地 NNN 范围，不属于上述三类合并集合。 |
-
-**“是否属于生态网络”“谁拥有／管理”“能否采蘑菇”是三个不同字段。** 不能把紫红色解释成 Natuurmonumenten，不能把深绿色解释成 Staatsbosbeheer，更不能根据这张图的颜色决定采摘。
-
-CLO 列出原始数据文件名，只能证明其制作过程用到了相应资料，不等于那些文件已被本次下载或用于重新制图。
-
-### 3.4 GIS 数据入口：留作进阶，不当作现成许可图
-
-[PDOK][pdok] 和 [data.overheid.nl][data-overheid] 可作为地理数据检索入口。检索词可用 `Staatsbosbeheer`、`beheergebieden`、`eigendommen`、`Natuurmonumenten`、`zeggenschap`。
-
-下载任何图层前，记录**发布者、数据年份、图层定义、授权许可、更新时间**。特别区分 `eigendom`（所有权）与 `beheer`（管理）。本攻略没有把这两个平台上的任何未知图层认证为“全国最新三类管理者数据”；data.overheid.nl 此次访问也受到抓取限制。
-
-<a id="places"></a>
-## 四、前面对话涉及的森林与自然区
-
-以下是**管理者与官方入口索引**，不是实时出菇报告，也不是美味牛肝菌热点排名。表中归属针对所链接的管理区，不自动覆盖整条徒步路线经过的所有土地。
-
-| 地点 | 管理者／官方入口 | 采蘑菇时的处理方式 |
-|---|---|---|
-| **Schoorlse Duinen** | [SBB 访问规则][schoorl-access]；[游客中心与联系入口][schoorl-centre] | 可进一步核对 SBB 一般政策，但这里原则上限正式步道，少数指定区域才可离道；不能为了找菌钻林子。 |
-| **’t Kleine Ganzenveld** | 从 [Schoorlse Duinen 官方入口][schoorl-access]继续确认具体位置。 | 不因 Google Maps 的 National forest 标签判断许可；小地名的边界和现场告示仍需核对。 |
-| **Mastbos，Breda** | [SBB 区域介绍][mastbos]；[Historische route 官方路线][mastbos-route] | SBB 候选区，出发前核实现场及地方规则；9.3公里路线是徒步路线，不是已验证的菌点路线。 |
-| **Baarnse Bos** | [SBB：Utrechtse Heuvelrug 区域介绍][baarn-sbb] | SBB 候选区；不能把其管理归属推广到整个 Baarn 或整个国家公园。 |
-| **Elswout** | [SBB 官方页面][elswout]；[Zuid-Kennemerland 公园规则][zk-rules] | **不要仅因它是 SBB 就归为可采。** 公园公布禁采规则；未获得针对该地适用规则的明确确认前，按观察、不采处理。 |
-| **Koningshof、Duin en Kruidberg、Midden-Herenduin、Heerenduinen** | [NM：Zuid-Kennemerland 区域介绍][zk-nm] | NM 管理的这些区域不按 SBB 少量政策处理；适用 NM 蘑菇禁采规则。 |
-| **Kaapse Bossen** | [NM 官方区域路线][kaapse] | NM 管理区，不采蘑菇。 |
-| **’s-Gravelandse Buitenplaatsen** | [NM 官方路线与庄园介绍][graveland] | NM 所管理的庄园部分适用其禁采规则；路线经过其他地块时仍需单独确认。 |
-| **Planken Wambuis、Leuvenumse Bossen** | [Planken Wambuis][planken]／[Leuvenumse Bossen][leuvenum] | NM 管理区，不采蘑菇。 |
-| **Kampina、Oisterwijkse Bossen en Vennen** | [Kampina][kampina]／[两区域官方项目介绍][oisterwijk] | NM 蘑菇禁采；不要把某些果园的特定采果活动扩展成采菌许可。 |
-| **Stippelberg、Voornes Duin** | [Stippelberg][stippelberg]／[Voornes Duin][voorne] | NM 管理区，不采蘑菇。 |
-| **Heidestein–Bornia，Zeist附近** | [Utrechts Landschap 官方区域页][heidestein] | 不是 SBB；按 Utrechts Landschap 蘑菇禁采规则处理。 |
-| **De Sysselt，Ede** | [GLK 官方区域页][sysselt] | 可进一步核对 GLK 的沿路少量自用政策；仍不得违规离道或无视当地限制。 |
-| **Noordhollands Duinreservaat** | [PWN 区域规则][pwn-rules] | 不采蘑菇；勿与邻近 Schoorlse Duinen 的规则混用。 |
+| **Schoorlse Duinen，Noord Holland** | SBB森林，[schoorl-access]；[游客中心与联系入口][schoorl-centre] | 可进一步核对 SBB 一般政策，但这里原则上限正式步道，少数指定区域才可离道；不能为了找菌钻林子。 |
+| **Mastbos，Breda** | SBB森林，[mastbos]；[Historische route 官方路线][mastbos-route] | 
+| **De Sysselt，Ede** | GLK森林，[sysselt] | 可进一步核对 GLK 的沿路少量自用政策；仍不得违规离道或无视当地限制。 |
 
 规则依据集中见[第二节](#rules)。尤其在大型国家公园、庄园群和沿海沙丘，**一次步行可能跨越不同管理地块**；进入新的区域时重新看入口牌，不以出发点规则覆盖全程。
 
 <a id="weather"></a>
-## 五、天气与出菇：查哪些网站，怎样比较
+## 四、天气与出菇：查哪些网站，怎样比较
 
-### 5.1 网站分工
+### 4.1 网站分工
 
 | 网站 | 适合查什么 | 使用提醒 |
 |---|---|---|
@@ -162,7 +109,7 @@ CLO 列出原始数据文件名，只能证明其制作过程用到了相应资�
 
 KNMI 的[图表方法说明][knmi-map-method]值得一起收藏：不同观测系统可能采用不同日界和统计方法，少量差异不一定是某个网站出错。缺测也不能直接填成零雨量。
 
-### 5.2 可以反复使用的比较方法
+### 4.2 可以反复使用的比较方法
 
 以下是一个**整理天气的工作流程，不是经过验证的出菇预测模型**：
 
@@ -174,31 +121,17 @@ KNMI 的[图表方法说明][knmi-map-method]值得一起收藏：不同观测�
 
 **不要建立“雨量超过X毫米、过Y天就必有美味牛肝菌”的规则。** 本文没有验证过这样的荷兰通用阈值，也不根据前面对话中的某一轮天气给森林永久排序。
 
-### 5.3 前面对比中用到的站名
-
-这些只是区域参考，不一定是每个林地最近、最有代表性的站点。可以在 [Weerstatistieken][weerstatistieken] 或 [KNMI][knmi-daily] 搜索站名。
-
-| 站名 | 前面用于参考的区域 |
-|---|---|
-| Voorschoten | 海牙、Wassenaar一带 |
-| Schiphol | Haarlem／Zandvoort周边的区域对比 |
-| De Bilt | Utrecht、Zeist周边的区域对比 |
-| Deelen | Veluwe部分地区 |
-| Gilze-Rijen | Breda／Mastbos周边的区域对比 |
-| Hoogeveen | Drenthe一带 |
-
-**本攻略不重印此前9月16—27日的具体雨量与预测表。** 旧预报会失效；需要复盘或制定新行程时，应按所需年份和日期重新下载观测、查看预报。也不能把“某一轮西部更湿”写成“西部永远比内陆更适合找菌”。
 
 <a id="identification"></a>
-## 六、荷兰物种图鉴与鉴定网站
+## 五、荷兰物种图鉴与鉴定网站
 
-### 6.1 关于你提到的“ndvv”和“wildpluk”
+### 5.1 关于“ndvv”和“wildpluk”
 
 你写的 **ndvv 可能指 NDFF**；此次检索到并能核实的对应资源是 **NDFF Verspreidingsatlas Paddenstoelen**，因此下面按这个名称收录，不另造一个“NDVV 图鉴”网站。
 
 **Wildpluk** 是野外采集的泛称，不是唯一网站名。下面分别收录 Wildplukwiki、Wildplukwijzer，并说明 wildpluk.com 的不同用途。
 
-### 6.2 物种资料与检索：优先收藏这六组
+### 5.2 物种资料与检索：优先收藏这六组
 
 #### A. NDFF Verspreidingsatlas Paddenstoelen
 
@@ -488,31 +421,8 @@ KNMI daggegevens [站名] [年份]
 ```
 
 <a id="archive"></a>
-## 附录C：旧链接、背景资料与核验限制
 
-### C.1 上面对话中的其他网站如何保留
 
-| 网站／资料 | 在本攻略中的定位 |
-|---|---|
-| [Streekstad Centraal：沙丘蘑菇与禁采报道][local-news] | 地方背景新闻，可提示相邻管理区规则不同。实际许可以 SBB、PWN 等官网为准；不沿用报道中的旧罚款金额作当前标准。 |
-| [Zuid-Kennemerland FAQ][zk-faq] | 补充游客问题；与[公园规则页][zk-rules]一起使用。 |
-| [PWN 访问规则总入口][pwn-access] | 找具体管理区规定，不把不同区域的规则混为一谈。 |
-| [NM 全部访问规则][nm-access] | 补充步道、活动、狗等访问问题；采菌另看其 wildpluk 条款。 |
-| [PN：“会出现蘑菇爆发吗？”][pn-explosion] | 用于理解雨后出菇的条件，文章语境和日期需保留，不当作长期预测模型。 |
-| [Natuurkennis：Duinbos 生境说明][duinbos] | 理解沙丘森林和土壤差异；不是采菌点位图。 |
-| [KWINK 2015 背景报告（PDF）][kwink] | 前面对话中出现过的旧地图二手出处。本次未重新核实报告内容；全国历史图优先看 [CLO 2009 原页][clo-2009]。 |
-| [此前引用的 bioRxiv 预印本链接][biorxiv] | 本次未成功重新读取；不把此前对它的概括、天数窗口等纳入本攻略结论。预印本本身也不等于已通过同行评审。 |
-| [此前引用的 DIGITAL.CSIC 记录][csic] | 本次未成功重新读取内容；保留作来源追溯，不作为本攻略预测阈值的依据。 |
-
-前面对话里的重复域名、带 `utm_source` 的跟踪链接和同一站点的多篇逐日天气页面已合并为主要入口。旧图、旧报道和无法重新核实的研究链接均与日常可用工具分开，不把它们包装成“最新可采地图”。
-
-### C.2 已知访问限制
-
-- **动态地图：** SBB、NM、PBL、Wildplukwijzer 的部分内容依赖浏览器脚本。本次核对了入口或官方介绍，不声称验证过每一个点位、每一块多边形。
-- **Waarneming.nl：** 自动访问受到验证页面限制，未据此确认任何最近出菇记录。
-- **data.overheid.nl：** 抓取受到限制，未取得此前提到的三套全国管理地块原始文件。
-- **资料时效：** CLO 的2023版和2009版按各自年份使用；Naturalis 的旧版图鉴不包装成最新分类；Wildplukwiki 标注为静态资料。
-- **许可边界：** 不确定具体地块、地方条例或现场规则时，保留“不确定”，不由地图颜色推导允许。
 
 **最终使用原则：先核实地点与规则，再看天气和目标物种；把“值得观察”与“可以采”“可以吃”分开记录。**
 
